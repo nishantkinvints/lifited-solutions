@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 import styleSvg from '../../assets/image/home/Style.svg'
 import sliderImg1 from '../../assets/image/home/slider-img-1.svg'
@@ -24,16 +25,16 @@ const Homebanner = () => {
                 </div>
 
                 <div className="background_circle animation">
-                    <img src={styleSvg} alt="mountain" />
+                    <Image src={styleSvg} alt="mountain"/>
                 </div>
                 <div className="background_circle_2 animation">
-                    <img src={sliderImg1} alt="mountain" />
+                    <Image src={sliderImg1} alt="mountain"/>
                 </div>
                 <div className="background_circle_3 animation">
-                    <img src={sliderImg2} alt="mountain" />
+                    <Image src={sliderImg2} alt="mountain"/>
                 </div>
                 <div className="background-image">
-                    <img src={mountain} alt="mountain" />
+                    <Image src={mountain} alt="mountain"/>
                 </div>
             </div>
         </div>
