@@ -1,0 +1,2751 @@
+@media (min-width: 1200px){
+    .modal-dialog {
+        max-width: 1140px;
+        margin: 1.75rem auto;
+    }
+    .modal-dialog {
+        margin: 3rem auto;
+    }
+}
+@media screen and (min-width: 1601px) {
+    .container{
+        max-width: 1514px;
+        margin: 0 auto;
+    }
+    .our_expe_section .container,
+    .grow_with_section .container,
+    .our_clients_say_section .container{
+        max-width: 1370px;
+    }
+    .about_page .ccontainer{
+        max-width: 1520px;
+    }       
+    .cta_section .container{
+        max-width: 1386px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    /*********************  Home banner CSS Start  *********************/
+    .home_banner_inner_section h1{
+        font-size: 64px;
+        margin: 10px 0 30px;
+    }
+    .home_banner_inner_section > p{
+        margin-bottom: 35px;
+    }
+    .background_circle{
+        bottom: -200px;
+    }
+    .background_circle img, .background-image img {
+        width: 100%;
+        height: 100%;
+    }
+    .background_circle img{
+        object-fit: cover;
+        object-position: top right;
+    }
+    /*********************  Home banner CSS End  *********************/
+}
+@media screen and (max-width: 1600px) {
+    /*********************  header CSS Start  *********************/
+    .menu li{
+        margin-right: 40px;
+        font-size: 14px;
+    }
+    .background_circle {
+        bottom: -160px;
+    }
+    .background-image {
+        bottom: -180px;
+    }
+    /*********************  header CSS End *********************/
+    /*********************  Home banner CSS Start  *********************/
+    .home_banner_inner_section h1 {
+        font-size: 58px;
+    }
+    .home_banner_inner_section > p{
+        font-size: 16px;
+    }
+    /*********************  Home banner CSS End  *********************/
+
+    /*********************  What We Strive For Section CSS Start *********************/
+    .what_we_info .sub_text br{
+        display: none;
+    }
+    .what_we_info .sub_text {
+        max-width: 750px;
+    }
+    .section_title{
+        font-size: 42px;
+    }
+    .blue_btn a{
+        min-width: 300px;
+    }
+    .what_we_box svg{
+        max-width: 110px;
+        height: 110px;
+    }
+    .what_we_right_img{
+        max-width: 450px;
+    }
+    .what_we_box{
+        width: 210px;
+        height: 210px;
+    }
+    .what_we_strive_section{
+        padding: 125px 0;
+    }
+    /*********************  What We Strive For Section CSS End *********************/
+
+    /*********************  Our Expe rtise at a Glance Section CSS Start  *********************/
+    .our_expe_section{
+        padding: 120px 25px;
+    }
+    .our_expe_wrap .section_title {
+        margin: 5px 0 50px;
+    }
+    /*********************  Our Expe rtise at a Glance Section CSS End *********************/
+
+    /*********************  PROJECTS Section CSS Start *********************/
+    .cm_section_pad {
+        padding: 120px 0;
+    }
+    .pj_link_list_1 {
+        bottom: 160px;
+        right: 133px;
+    }
+    .pj_link_list_2 {
+        left: 128px;
+        bottom: 152px;
+    }
+    .pj_link_list_3 {
+        bottom: 145px;
+        left: 68px;
+    }
+    .pj_link_list_4 {
+        right: 90px;
+        bottom: 170px;
+    }
+    .projects_inner_section .see_more {
+        margin-top: 65px;
+    }
+    /*********************  PROJECTS Section CSS End *********************/
+
+    /*********************  Grow With Section CSS Start *********************/
+    .grow_sub_title {
+        font-size: 60px;
+    }
+    .grow_with_section{
+        margin: 0px;
+    }
+    .grow_img img{
+        max-width: 320px;
+    }
+    .grow_with_inner_section .grow_sub_title {
+        margin: 10px 0 25px;
+    }
+    /*********************  Grow With Section CSS End *********************/
+
+    /*********************  Our Clients Say Section CSS Start *********************/
+    .profile_dec {
+        min-height: 275px;
+        overflow: hidden;
+    }
+    .clients_say_wrap_in {
+        padding: 40px;
+    }
+    .profile_dec h3{
+        font-size: 24px;
+    }
+    /*********************  Our Clients Say Section CSS End *********************/
+
+    /*********************  check_out Section CSS Start *********************/
+    .check_out_section .more_links {
+        margin-top: 65px;
+    }
+    .check_out_desc .text-btn{
+        font-size: 22px;
+    }
+    .check_out_desc {
+        padding: 55px 40px 55px;
+    }
+    .check_out_desc h3{
+        font-size: 26px;
+    }
+    /*********************  check_out Section CSS End *********************/
+
+
+    .the_solution_image{
+        max-width: 830px;
+    }
+    .the_challge_image img {
+        max-width: 150%;
+    }
+    .rebuilding_iamge, .the_visulas_image{
+        max-width: 55%;
+    }
+    /* Process Page CSS start */
+    .banner_section {
+        height: 550px;
+    }
+    .banner_circle.orenge_circle {
+        right: -520px;
+    }
+    .banner_circle.blue_circle {
+        left: 510px;
+        top: -190px;
+    }
+    .banner_info h1 {
+        font-size: 60px;
+    }
+    .slide_content h3 {
+        font-size: 17px;
+    }
+    .slide_content_block {
+        padding: 60px 40px;
+    }
+    .slider-gallery .slick-slide img {
+        max-width: 480px;
+    }
+    /* Process Page CSS end */
+    /* About Page CSS Start */
+    .about_page .banner_circle.blue_circle {
+        right: -415px;
+    }
+    .about_page .banner_circle.orenge_circle {
+        left: -607px;
+    }
+    .our_value_section {
+        padding-top: 85px;
+        padding-bottom: 80px;
+    }   
+    .value_info {
+        margin-left: 25px;
+    }
+    /* About Page CSS End */
+    /* Case Study Page Start */
+    .case_study_page .common_the_solution_section {
+        padding: 40px 0;
+    }
+    .case_study_page .the_build_section{
+        padding-bottom: 30px;
+    }
+    .case_study_page .the_solution_image img{
+        height: 560px;
+        object-fit: cover;
+    }
+    .case_study_page .the_challge_image.image_wi img {
+        height: 520px;
+    }
+    .case_study_page .common_the_challege_section {
+        padding: 100px 0 40px;
+    }
+    .case_study_page .common_the_solution_section {
+        padding: 40px 0;
+        padding-top: 80px;
+    }
+    .case_study_page .the_solution_image img {
+        height: 480px;
+    }
+    .case_study_page .the_build_section {
+        padding-top: 130px;
+    }
+    /* Case Study Page End */
+    /* Project Page Start */
+    .project_page .banner_circle.orenge_circle {
+        right: -180px;
+        bottom: -170px;
+    }
+    .project_page .pj_link_list_5 {
+        bottom: 145px;
+        right: 85px;
+    }
+    .project_page .pj_link_list_6 {
+        bottom: 150px;
+        left: 73px;
+    }
+    /* Project Page End */
+    .cm_project_box{
+        min-height: 430px;
+    }
+    .cm_hide_contain p{
+        font-size: 24px;
+        min-width: 260px;
+    }
+}
+@media (max-width:1599px){
+    /* About Page CSS Start */
+    .team-member_img {
+        height: 440px;
+    }
+    /* About Page CSS End */
+}
+@media (max-width:1530px){
+    /* Process Page CSS start */
+    .banner_info h1 {
+        font-size: 50px;
+    }
+    .cta_info h3 {
+        font-size: 60px;
+        margin-top: 10px;
+    }
+    .banner_circle.orenge_circle {
+        right: -610px;
+    }
+    .banner_circle.red_circle {
+        bottom: -130px;
+    }
+    .gradient_img_block {
+        width: 870px;
+    }
+    .slide_content_block {
+        padding: 70px 40px;
+        width: calc(100% - 870px);
+    }
+    /* Process Page CSS End */
+    /* Case Study Page Start */
+    .case_study_page .the_challge_image img {
+        max-width: 100%;
+    }
+    .case_study_page .cta_info h3 {
+        font-size: 53px;
+    }
+    /* Case Study Page End */
+
+   
+}
+@media screen and (max-width: 1440px) {
+    .the_solution_content {
+        padding: 0px;
+    }
+    .the_solution_image {
+        left: -6%;
+    }
+    .rebuilding_iamge img, .the_visulas_image img{
+        min-height: 480px;
+    }
+    .rebuilding_iamge, .the_visulas_image {
+        max-width: 50%;
+    }
+   
+}
+@media screen and (max-width: 1399px) {
+    .menu_inner li {
+        margin-right: 22px;
+    }
+    .main-header{
+        padding: 25px;
+    }
+    .background-image {
+        bottom: -110px;
+    }
+    /*********************  What We Strive For Section CSS Start *********************/
+    .what_we_strive_section {
+        padding: 110px 0;
+    }
+    .section_title {
+        font-size: 40px;
+    }
+    /*********************  What We Strive For Section CSS End *********************/
+    
+    /*********************  Our Expe rtise at a Glance Section CSS Start  *********************/
+    .strategy-sec h3{
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+    .strategy-sec{
+        padding: 40px 30px;
+    }
+    .strategy-sec ul {
+        min-height: 285px;
+    }
+    .our_expe_section {
+        padding: 110px 25px;
+    }
+    .strategy-sec p, .strategy-sec ul li{
+        font-size: 14px;
+    }
+    .strategy-sec {
+        padding: 40px 18px 40px;
+    }
+    .strategy-sec p a.text-btn{
+        font-size: 18px;
+    }
+    .strategy-sec h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .inner-strategy-sec.strategy-sec h3 {
+        font-size: 35px;
+    }
+    .our_expe_wrap .section_title {
+        margin: 5px 0 40px;
+    }
+    /*********************  Our Expe rtise at a Glance Section CSS End *********************/
+
+    /*********************  PROJECTS Section CSS Start *********************/
+    .cm_section_pad {
+        padding: 100px 0;
+    }
+    .pj_link_list_1 {
+        bottom: 135px;
+        right: 86px;
+    }
+    .pj_link_list_2 {
+        left: 86px;
+        bottom: 125px;
+    }
+    .pj_link_list_3 {
+        bottom: 125px;
+        left: 27px;
+    }
+    .pj_link_list_4 {
+        right: 49px;
+        bottom: 140px;
+    }
+    .projects_inner_section .see_more {
+        margin-top: 50px;
+    }
+    /*********************  PROJECTS Section CSS End *********************/
+
+    /*********************  Grow With Section CSS Start *********************/
+    .grow_img img{
+        max-width: 300px;
+    }
+    .grow_sub_title {
+        font-size: 54px;
+    }
+    .grow_circle {
+        right: -930px;
+    }
+    .grow_with_section{
+        padding: 15px 0;
+    }
+    /*********************  Grow With Section CSS End *********************/
+
+    /*********************  Our Clients Say Section CSS Start *********************/
+    .profile_img {
+        width: 85px;
+        height: 85px;
+    }
+    .profile_dec p{
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+    }
+    .profile_dec {
+        min-height: 255px;
+    }
+    /*********************  Our Clients Say Section CSS End *********************/
+
+    /*********************  check_out Section CSS Start *********************/
+    .check_out_inner .row{
+        margin: 0 -20px;
+    }
+    .check_out_inner .row .wpb_wrapper {
+        padding: 0 20px;
+    }
+    .check_out_desc h3 {
+        font-size: 22px;
+    }
+    .check_out_desc {
+        padding: 45px 40px 45px;
+    }
+    /*********************  check_out Section CSS End *********************/
+    /* Process Page CSS Start */
+    .gradient_img_block {
+        width: 800px;
+    }
+    .slide_content_block {
+        padding: 70px 40px;
+        width: calc(100% - 800px);
+    }
+    /* Process Page CSS End */
+    /* About Page CSS Start */
+    .value_info h4 {
+        font-size: 20px;
+    }
+    .value_info {
+        margin-left: 20px;
+    }
+    .value_image svg{
+        width: 70px;
+        height: 70px;
+    }
+    .value_image .big_svg{
+        width: 55px;
+        height:55px;
+    }
+    .value_box {
+        height: 160px;
+    }
+    .team-member_img {
+        height: 365px;
+    }
+    .team-members-section {
+        padding-top:100px;
+    }
+    .our-beginnings-section {
+        padding: 80px 0 ;
+    }
+    .our-beginnings-text h2.section_title {
+        margin-bottom: 20px;
+    }
+    .our-beginnings-text {
+        padding-top: 0px;
+    }
+    /* About Page CSS End */
+    /* Project Page CSS Start */
+    .project_page .banner_circle.red_circle svg{
+        max-width: 954px;
+    }   
+    .project_page .pj_link_list_5 {
+        bottom: 115px;
+        right: 45px;
+    }
+    .project_page .pj_link_list_6 {
+        bottom: 120px;
+        left: 63px;
+    }
+    /* Project Page CSS End */
+}
+@media (max-width:1360px){
+    /* Process Page CSS start */
+    .banner_section {
+        height: 500px;
+    }
+    .banner_circle.orenge_circle {
+        right: -650px;
+    }
+    .banner_circle.red_circle {
+        bottom: -190px;
+    }
+    .banner_circle.blue_circle {
+        left: 299px;
+    }
+    .four_block{
+        padding: 50px 0;
+    }
+    .discover_image{
+        max-width: 120px;
+        margin: 0 auto;
+    }
+    .imgae_left .discover_image{
+        margin: 0 auto;
+    }
+    .discover_info h4 {
+        font-size: 35px;
+    }
+    .four_columns{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .four_fold_section {
+        padding-top: 80px;
+    }
+    .cta_info h3 {
+        font-size: 50px;
+    }
+    .slider-gallery .slick-slide img {
+        max-width: 410px;
+    }
+    .slider-gallery .slick-slide .slider_image{
+        max-width: 260px;
+    }
+    .slider_subjects {
+        margin-top: 20px;
+    }
+    .slide_content h3 {
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+    .gradient_img_block {
+        width: 700px;
+    }
+    .slide_content_block {
+        width: calc(100% - 700px);
+        padding: 50px 30px;
+    }
+    .slider_subjects p {
+        font-size: 14px;
+    }
+    /* Process Page CSS End */
+    /* About Page CSS Start */
+    .about_page .banner_circle.orenge_circle {
+        left: -687px;
+    }
+    .about_page .banner_circle.blue_circle {
+        right: -495px;
+    }
+    .about_page .banner_circle.red_circle {
+        top: -180px;
+        right: -200px;
+    }
+    /* About Page CSS End */
+    /* Case Study Page Start */
+    .case_study_page .the_solution_image {
+        max-width: 750px;
+    }
+    .case_titles {
+        margin-bottom: 50px;
+    }
+    .case_section {
+        padding-top: 100px;
+    }
+    /* Case Study Page End */
+
+    .cm_project_box {
+        min-height: 400px;
+    }
+    .cm_hide_contain p {
+        font-size: 22px;
+        min-width: 230px;
+    }
+    .cm_project_box {
+        min-height: 380px;
+    }
+    .cm_project_box_2 .projects_img {
+        margin-right: -120px;
+    }
+    .project_logo_img img {
+        max-width: 220px;
+    }
+    .cm_project_box_2:hover .projects_img {
+        transform: translateX(-68%);
+    }
+    .cm_project_box_3:hover .projects_img {
+        transform: translateX(-90%);
+    }
+    .cm_project_box_1:hover .projects_img, .cm_project_box_4:hover .projects_img {
+        transform: translateX(83%);
+    }
+    .cm_project_box_5 .projects_img{
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    body > .menu {
+        display: flex !important;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0px;
+        right: 0;
+        width: 300px;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 15;
+        justify-content: flex-start;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        padding: 33px;
+        transform: translate(301px,0px);
+        -webkit-transform: translate(301px,0px);
+        -ms-transform: translate(301px,0px);
+    }
+    .menu_inner li span > span{
+        display: none;
+    }
+    .menu_inner li.header_main_li .header_btn{
+        background-color: #040404;
+    }
+    .menu_inner li.header_main_li .header_btn span {
+        color: #fff;
+    }
+    .header_main_li:after{
+        content: ' ';
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        bottom: -30px;
+        background-color: #4A4949;
+    }
+    .header_main_li + li{
+        margin-top: 60px !important;
+    }
+    .switch__label:before{
+        webkit-filter: invert(1);
+        filter: invert(1);
+    }
+    .menu_inner {
+        flex-direction: column;
+        align-items: unset;
+        width: 100%;
+    }
+    body:after {
+        content: ' ';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.8);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        opacity: 0;
+        z-index: 15;
+        pointer-events: none;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    body.cm_overflow:after {
+        opacity: 1;
+        pointer-events: unset;
+        left: -300px;
+    }
+    .menu_inner li{
+        margin: 0px;
+        min-width: 140px;
+    }
+    .toggle{
+        display: block;
+    }
+    .header_main_li{
+        padding: unset;
+    }
+    body,
+    .main-header{
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    .header-wrapper .menu{
+        display: none;
+    }
+    .cm_overflow .menu{
+        right: 0%;
+        transform: translate(0px, 0px);
+    }
+    .cm_overflow .main-wrapper{
+        /* margin-left: -300px; */
+        transform: translate(-300px, 0px);
+        width: 100%;
+    }
+    .menu_inner li a.menu_text:after{
+        bottom: 1px;
+    }
+    .menu_inner li.header_main_li {
+        padding: unset;
+    }
+    .menu_inner li span{
+        font-size: 18px;
+        opacity: 0.7;
+        font-weight: 500;
+        letter-spacing: 1px;
+        transition: opacity 0.2s ease, color 0.2s ease;
+        -webkit-transition: opacity 0.2s ease, color 0.2s ease;
+        text-transform: capitalize;
+    }
+    .menu_inner li + li{
+        margin-top: 30px;
+    }
+    .toggle.on .one,
+    .toggle.on .three{
+        background-color: #000;
+    }
+    .menu_inner li a{
+        color: #000;
+    }
+    .switch{
+        margin-top: 10px;
+    }
+    .home_banner_inner_section h1 {
+        font-size: 50px;
+        margin: 10px 0 25px;
+    }
+    .home_banner_inner_section > p {
+        margin-bottom: 30px;
+        font-size: 15px;
+        max-width: 610px;
+    }
+    /*********************  Home banner CSS Start  *********************/
+    .background_circle {
+        bottom: -200px;
+    }
+    .background_circle_2{
+        max-width: 238px;
+        right: -135px;
+        top: -125px;
+    }
+    .menu-main a img{
+        max-width: 250px;
+    }
+    a.grtin-btn{
+        padding: 13.5px 40px;
+    }
+    /*********************  Home banner CSS End *********************/
+
+    /*********************  What We Strive For Section CSS Start *********************/
+    .what_we_strive_section {
+        padding: 100px 0;
+    }
+    .section_title {
+        font-size: 36px;
+    }
+    .what_we_box p{
+        font-size: 17px;
+    }
+    /*********************  What We Strive For Section CSS End *********************/
+
+    /*********************  PROJECTS Section CSS Start *********************/
+    .cm_section_pad {
+        padding: 80px 0;
+    }
+    .pj_link_list li a{
+        font-size: 10px;
+    }
+    .pj_link_list_1 {
+        bottom: 115px;
+        right: 82px;
+    }
+    .pj_link_list_2 {
+        left: 31px;
+        bottom: 98px;
+    }
+    .pj_link_list_3 {
+        bottom: 102px;
+        left: 30px;
+    }
+    .pj_link_list_4 {
+        right: 7px;
+        bottom: 117px;
+    }
+    .pj_link_list li + li {
+        margin-left: 20px;
+    }
+    .pj_link_list li a:after{
+        right: -10px;
+        height: calc(100% - 5px);
+    }
+    .pj_link_list li{
+        line-height: 1.2;
+    }
+    /*********************  PROJECTS Section CSS End *********************/
+
+    /*********************  Grow With Section CSS Start *********************/
+    .grow_circle {
+        right: -1020px;
+    }
+    .grow_sub_title {
+        font-size: 48px;
+    }
+    .grow_sub_text {
+        font-size: 16px;
+    }
+    /*********************  Grow With Section CSS End *********************/
+
+    /*********************  check_out Section CSS Start *********************/
+    .check_out_desc {
+        padding: 40px 30px 40px;
+    }
+    .check_out_desc p.lorem_text:before{
+        margin: 20px 0;
+    }
+    .check_out_section .more_links {
+        margin-top: 50px;
+    }
+    .check_out_desc .text-btn {
+        font-size: 20px;
+    }
+    .check_out_inner .row{
+        margin: 0 -15px;
+    }
+    .check_out_inner .row .wpb_wrapper {
+        padding: 0 15px;
+    }
+    /*********************  check_out Section CSS End *********************/
+
+    .common_case_details h3{
+        font-size: 60px;
+    }
+    .testimonials_content .common_desc p{
+        font-size: 28px;
+    }
+    .lets_grow_block h2{
+        font-size: 46px;
+    }
+    .common_inner_page_banner_section{
+        max-height: 550px;
+        min-height: 550px;
+    }
+    .the_solution_image {
+        left: -24%;
+    }
+    .rebuilding_iamge img {
+        min-height: 400px;
+    }
+    .rebuilding_iamge, .the_visulas_image {
+        max-width: 42%;
+    }
+    /* Process Page CSS Start */
+    .discover_info h4 {
+        font-size: 30px;
+    }
+    .four_fold_section {
+        padding-top: 60px;
+    }
+    .cta_section .container{
+        max-width: 800px;
+    }
+    .cta_info h3 {
+        font-size: 40px;
+    }
+    .banner_circle.orenge_circle svg {
+        max-width: 770px;
+    }
+    .banner_circle.orenge_circle {
+        right: -330px;
+    }
+    .banner_circle.red_circle {
+        bottom: -247px;
+        left: -210px;
+    }
+    .banner_circle.blue_circle {
+        left: 209px;
+    }
+    .banner_info h1 {
+        font-size: 40px;
+    }
+    .gradient_img_block {
+        width: 500px;
+    }
+    .slide_content_block {
+        width: calc(100% - 500px);
+        padding: 43px 30px;
+    }
+    .slider-gallery .slick-slide img {
+        max-width: 340px;
+    }
+    .slider-gallery .slick-dots {
+        margin-top: 20px;
+    }
+    .gradient_img_block {
+        padding-bottom: 20px;
+    }
+    /* Process Page CSS End */
+    /* About Page CSS Start */
+    .about_page .banner_circle.orenge_circle {
+        left: -517px;
+        bottom: -150px;
+    }
+    .banner_info span {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-top: 20px;
+    }
+    .our_value_heading p.info{
+        font-size: 17px;
+    }
+    .value_box_column {
+        padding: 0 15px;
+    }
+    .value_info h4 {
+        font-size: 18px;
+    }
+    .value_box{
+        padding: 20px 25px;
+    }
+    .value_info p {
+        font-size: 14px;
+    }
+    .our_value_boxes {
+        padding-top: 50px;
+    }
+    .common-space-y {
+        padding: 80px 0;
+    }
+    .our-beginnings-text {
+        padding-top: 0;
+        padding-right: 15px;
+    }
+    .our-beginnings-text h2.section_title {
+        margin-bottom: 22px;
+    }
+    .team-member_designation p{
+        font-size:16px;
+        letter-spacing: 1px;
+    }
+    .team-member_name a{
+        font-size:24px;
+    }
+    .team-member_description p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .team-member-detail {
+        padding-top: 20px;
+    }
+    .team-member_connect ul li a {
+        font-size: 18px;
+    }
+    .team-member_connect ul li:not(:last-child) {
+        margin-right: 18px;
+    }
+    .team-members-section{
+        padding: 50px 0;
+    }
+    .partner_image img{
+        max-width: 200px;
+    }
+    .partner_small_img img{
+        max-width: 260px;
+    }
+    .partners_section {
+        padding: 65px 0;
+    }
+    /* About Page CSS End */
+    /* Case Study Page Start */
+    .case_study_page .the_build_section .common_inner_sub_title h4 {
+        padding-bottom: 20px;
+    }
+    .case_study_page .the_build_section .common_case_desc {
+        margin-top: 25px;
+    }
+    .case_study_page .the_solution_content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .case_study_page .common_inner_sub_title h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .book_banner_section h1 {
+        font-size: 60px;
+    }
+    .case_study_page .common_inner_page_banner_section {
+        min-height: 400px;
+    }
+    /* Case Study Page End */
+    /* Project Page Start */
+    .project_page .cta_section::after {
+        right: -300px;
+    }
+    .project_page .banner_circle.red_circle svg{
+        max-width: 804px;
+    }   
+    .project_page .banner_circle.orenge_circle {
+        right: -210px;
+        bottom: -230px;
+    }
+    .project_page .pj_link_list_5 {
+        bottom: 95px;
+        right: 36px;
+    }
+    .project_page .pj_link_list_6 {
+        bottom: 100px;
+        left: 55px;
+    }
+    /* Project Page End */
+
+    .modal-dialog {
+        max-width: calc(100% - 30px);
+        margin: 15px auto;
+    }
+    .modal_pop_up .cm-btn-close{
+        width: 45px;
+        height: 45px;
+    }
+    .testimonials_image::after{
+        width: calc(100% + 20px);
+        height: calc(100% + 20px);
+    }
+
+    .cm_project_box {
+        min-height: 330px;
+    }
+    .cm_project_box_1:hover .projects_img, .cm_project_box_4:hover .projects_img {
+        transform: translateX(100%);
+    }
+    .cm_hide_contain p {
+        font-size: 18px;
+        min-width: 190px;
+        left: 30px;
+    }
+    .cm_project_box_3:hover .projects_img {
+        transform: translateX(-100%);
+    }
+    .cm_project_box_5 .project_logo_img img,
+    .cm_project_box_6 .project_logo_img img  {
+        max-width: 200px;
+    }
+    .pj_link_list_6 {
+        max-width: 190px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .background-image{
+        display: flex;
+        justify-items: flex-end;
+        right: 0;
+    }
+    .background-image img{
+        width: unset;
+        height: unset;
+        max-width: unset;
+    }
+    .background-image {
+        bottom: -180px;
+    }
+    
+}
+@media screen and (max-width: 991px) {
+    .project_page .cm_project_box_1:hover .projects_img{
+        transform: translateX(132%);
+    }
+    .cm_project_box_4:hover .projects_img {
+        transform: translateX(110%);
+    }
+    .cm_project_box_4 .cm_hide_contain p{
+        max-width: 125px;
+    }
+    .cm_project_box_5 .project_logo_img img, .cm_project_box_6 .project_logo_img img {
+        max-width: 120px;
+    }
+    .cm_project_box_2:hover .projects_img {
+        transform: translateX(-84%);
+    }
+    .project_page .cm_project_box_3:hover .projects_img {
+        transform: translateX(-132%);
+    }
+    .cm_project_box_1.cm_project_box_5:hover .projects_img {
+        transform: translateX(100%);
+    }
+    .cm_project_box_3.cm_project_box_6:hover .projects_img {
+        transform: translateX(-110%);
+    }
+    .home_banner_inner_section h1{
+        font-size: 44px;
+        margin: 10px 0 20px;
+    }
+    .home_banner_inner_section > span{
+        font-size: 15px;
+    }
+    .background-image{
+        right: 32%;
+    }
+    a.grtin-btn{
+        padding: 13.5px 30px;
+    }
+    /*********************  What We Strive For Section CSS Start *********************/
+    .what_we_strive_inner_section{
+        flex-direction: column;
+    }
+    .what_we_right_img{
+        margin-top: 30px;
+    }
+    .section_title {
+        font-size: 34px;
+    }
+    .sub_title {
+        font-size: 15px;
+    }
+    .what_we_strive_section {
+        padding: 70px 0;
+    }
+    .what_we_info .sub_text{
+        margin-bottom: 25px;
+        line-height: 1.7;
+    }
+    .blue_btn a {
+        min-width: 280px;
+    }
+    .what_we_strive_inner_section .section_title {
+        margin: 10px 0 15px;
+    }
+    /*********************  What We Strive For Section CSS End *********************/
+
+    /*********************  Our Expe rtise at a Glance Section CSS Start *********************/
+    .strategy-sec ul {
+        min-height: 235px;
+    }
+    .wpb_wrapper:nth-child(n+3) {
+        margin-top: 35px;
+    }
+    .our_expe_section {
+        padding: 70px 25px;
+    }
+    /*********************  Our Expe rtise at a Glance Section CSS End  *********************/
+
+    .chat-block,
+    .office-block {
+        margin-right: 0px;
+        padding-right: 20px;
+    }
+    .footer-inner{
+        flex-wrap: wrap;
+    }
+    .f-block {
+        width: 50%;
+        margin-bottom: 35px;
+    }
+    .top-footer{
+        padding: 80px 0;
+    }
+
+     /*********************  PROJECTS Section CSS Start *********************/
+    .cm_section_pad {
+        padding: 70px 0;
+    }
+    .pj_link_list_3 {
+        bottom: 52px;
+        left: 27px;
+        max-width: 150px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .pj_link_list_1 {
+        bottom: 80px;
+        right: 22px;
+    }
+    .pj_link_list_2 {
+        left: -9px;
+        bottom: 64px;
+    }
+    .pj_link_list_4 {
+        right: -53px;
+        bottom: 77px;
+    }
+    .projects_inner_section .cm_project_box:nth-child(n+3) {
+        margin-top: 20px;
+    }
+    .projects_inner_section .cm_project_box {
+        padding: 0 10px;
+    }
+    .projects_inner_section .row {
+        margin: 0 -10px;
+    }
+    .pj_link_list.pj_link_list_4 li {
+        margin-right: 20px;
+    }
+    .pj_link_list li a {
+        font-size: 9px;
+    }
+     /*********************  PROJECTS Section CSS End *********************/
+
+    /*********************  Grow With Section CSS Start *********************/
+    .grow_img img {
+        max-width: 250px;
+    }
+    .grow_circle {
+        right: -1050px;
+    }
+    /*********************  Grow With Section CSS End *********************/
+
+    /*********************  Our Clients Say Section CSS Start *********************/
+    .profile_dec p{
+        font-size: 15px;
+    }
+    .clients_say_wrap_in {
+        padding: 30px;
+    }
+    .profile_dec {
+        min-height: 235px;
+    }
+    .profile_img {
+        width: 75px;
+        height: 75px;
+    }
+    .profile_details {
+        margin-left: 20px;
+    }
+    .profile_dec h3{
+        margin-bottom: 20px;
+    }
+    .our_clients_slider .slick-track {
+        padding: 20px 0 40px 20px;
+    }
+    /*********************  Our Clients Say Section CSS End *********************/
+
+    .common_inner_page_banner_section {
+        max-height: 480px;
+        min-height: 480px;
+        margin-top: 0;
+    }
+    .common_case_content_section, .common_the_challege_section, .common_the_solution_section, .common_custom_wedding_section, .common_testimonials_section, 
+    .common_the_brand_section, .common_the_visulas_section, .common_only_share_section {
+        padding: 80px 0;
+    }
+    .common_case_details h3{
+        font-size: 44px;
+        margin: 10px 0 20px;
+    }
+    .common_platform_box h4{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .common_platform_box ul li{
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .cm_order {
+        order: -1;
+    }
+    .common_inner_sub_title h4{
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .the_solution_image {
+        left: 0;
+        position: relative;
+        top: unset;
+        transform: unset;
+        max-width: 80%;
+        margin-bottom: 40px;
+    }
+    .common_business_collection{
+        padding-bottom: 80px;
+    }
+    .testimonials_image{
+        max-width: 150px;
+        height: 150px;
+    }
+    .testimonials_content .common_desc p{
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    .testimonials_name h3{
+        font-size: 28px;
+    }
+    .testimonials_name p{
+        font-size: 16px;
+        padding-top: 0;
+    }
+    .the_brand_image {
+        margin-bottom: 40px;
+    }
+    .common_the_approach_section {
+        max-width: 750px;
+        padding: 80px 15px;
+        margin: 0 auto;
+    }
+    .the_approach_right_col {
+        width: 100%;
+        padding-left: 0;
+    }
+    .the_approach_left_col{
+        width: 100%;
+    }
+    .the_approch_image{
+        margin-bottom: 40px;
+        height: auto;
+    }
+    .label_counter{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .common_counter ul li + li {
+        margin-top: 30px;
+    }
+    .common_tag_share_section{
+        padding-bottom: 80px;
+    }
+    .the_challge_image.redefining_iamge img{
+        max-width: 70%;
+    }
+    .redefining_iamge{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .redefining_ml{
+        max-width: 100%;
+    }
+    .common_rebuilding_entire_section{
+        padding: 0 0 80px;
+    }
+    .rebuilding_content, .the_visulas_content {
+        position: unset;
+        transform: unset;
+        top: unset;
+    }
+    .rebuilding_iamge, .the_visulas_image {
+        max-width: 700px;
+        margin: 0 auto 40px;
+    }
+    .the_visulas_details {
+        max-width: 100%;
+    }
+    .the_cotcome_image{
+        margin-bottom: 40px;
+    }
+    /* Process Page CSS Start */
+    .discover_info h4 {
+        font-size: 27px;
+    }
+    .discover_info hr{
+        max-width: 70px;
+    }
+    .cta_section .container{
+        max-width: 650px;
+    }
+    .cta_info h3 {
+        font-size: 32px;
+    }
+    .banner_info h1 {
+        font-size: 35px;
+    }
+    .banner_info p{
+        font-size: 12px;
+    }
+    .banner_circle.orenge_circle {
+        right: -360px;
+    }
+    .banner_circle.orenge_circle svg {
+        max-width: 740px;
+        height: 740px;
+    }
+    .banner_circle.blue_circle svg{
+        max-width: 240px;
+        height: 240px;
+    }
+    .four_top p,.discover_info p{
+        font-size: 15px;
+    }
+    .gradient_img_block {
+        width: 370px;
+    }
+    .slide_content_block {
+        width: calc(100% - 370px);
+        padding: 40px 20px;
+    }
+    .slider-gallery .slick-slide img {
+        max-width: 300px;
+    }
+    .slider-gallery .slick-slide .slider_image {
+        max-width: 210px;
+    }
+    .slider-gallery .slick-dots {
+        margin-top: 10px;
+    }
+    .slider-gallery .slick-dots li button {
+        width: 35px;
+        height: 2px;
+    }
+    .slider_subjects {
+        margin-top: 10px;
+    }
+    .slider_subjects p {
+        font-size: 12px;
+    }
+    .slide_content a {
+        font-size: 15px;
+    }
+    .slide_content h3 {
+        font-size: 14px;
+    }
+    /* Process Page CSS End */   
+    /* About Page CSS Start */
+    .our-beginnings-text {
+        padding-top: 0;
+    }
+    .our-beginnings-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .team-member_img {
+        height: 235px;
+    }
+    .team-member_connect p.lets-connect-text,
+    .team-member_description p {
+        margin-bottom: 15px;
+    }
+    .team-member {
+        margin-bottom: 45px;
+    }
+    .banner_info span {
+        font-size: 12px;
+        max-width: 91%;
+    }
+    .about_page .banner_info {
+        margin-top: 0;
+    }
+    .about_page .banner_circle.orenge_circle {
+        left: -500px;
+        bottom: -50px;
+    }
+    .about_page .banner_circle.red_circle {
+        top: -180px;
+        right: -200px;
+    }
+    .about_page .banner_circle.blue_circle {
+        right: -90px;
+        bottom: -100px;
+    }
+    .value_box {
+        height: 120px;
+    }
+    .value_info p {
+        max-width: 100%;
+    }
+    .partner_image img {
+        max-width: 140px;
+    }
+    .partner_small_img img {
+        max-width: 220px;
+    }
+    /* About Page CSS End */
+    /* Case Study Page CSS Start */
+    .case_study_page .the_solution_image {
+        max-width: 100%;
+        position: unset;
+        padding: 0 15px;
+    }
+    .case_study_page .the_solution_image img {
+        height: unset;
+    }
+    .case_study_page .the_build_section .common_case_desc p {
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+    .case_study_page .the_challge_content .common_desc.max_width_content p {
+        max-width: 100%;
+    }
+    .case_study_page .cta_info h3 {
+        font-size: 37px;
+    }
+    .case_study_page .common_the_challege_section {
+        padding: 80px 0 40px;
+    }
+    .case_study_page .the_build_section {
+        padding-top: 60px;
+    }
+    .case_study_page .the_challge_image.image_wi img {
+        height: unset;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    /* Case Study Page CSS End */
+    /* Project Page CSS Start */
+    .project_page .banner_circle.red_circle svg {
+        max-width: 724px;
+    }
+    .project_page .banner_circle.blue_circle {
+        top: -120px;
+    }
+    .project_page .banner_circle.orenge_circle {
+        right: -260px;
+        bottom: -380px;
+    }
+    .project_page .pj_link_list_5 {
+        bottom: 65px;
+        right: 26px;
+    }
+    .project_page .pj_link_list_6 {
+        bottom: 70px;
+        left: 43px;
+    }
+    .case_section {
+        padding-top: 85px;
+    }
+    .case_titles {
+        margin-bottom: 40px;
+    }
+    /* Project Page CSS End */
+
+    .book_form_elemnt{
+        max-width: 580px;
+    }
+    .book_form .section_title{
+        max-width: 500px;
+    }
+    .roude_2{
+        width: 300px;
+        height: 300px;
+    }
+    .roude_1{
+        width: 240px;
+        height: 240px;
+    }
+    .modal_pop_up .cm-btn-close{
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+
+    .cm_project_box {
+        min-height: 250px;
+    }
+    .project_logo_img img {
+        max-width: 165px;
+    }
+    .cm_project_box_2 .projects_img {
+        margin-right: -60px;
+    }
+    .cm_hide_contain p {
+        font-size: 15px;
+        min-width: 151px;
+        left: 15px;
+    }
+    .pj_link_list_6 {
+        min-width: 141px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .menu_inner li span{
+        font-size: 16px;
+    }
+    .main-header {
+        padding: 17px 0;
+        top: 0;
+        background-color: rgba(46, 46, 46, 10%);
+    }
+    .main-contain{
+        padding: 0px;
+    }
+    .background-image {
+        right: 20%;
+    }
+    .background_circle {
+        width: 110%;
+        height: 110%;
+    }
+    .background-image {
+        min-width: 100% !important;
+        height: 385px !important;
+        bottom: -10px;
+        right: -20% !important;
+        display: unset;
+        text-align: right;
+    }
+    .background-image img {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+    .home_banner_inner_section h1{
+        font-size: 38px;
+    }
+    .home_banner_inner_section > p{
+        margin-bottom: 25px;
+    }
+    .home_banner_inner_section > span{
+        font-size: 14px;
+    }
+    .menu-main a img{
+        max-width: 200px;
+    }
+    a.grtin-btn{
+        font-size: 12px !important;
+        padding: 11px 30px;
+    }
+
+    /*********************  What We Strive For Section CSS Start *********************/
+    .sub_title {
+        font-size: 14px;
+    }
+    .blue_btn a{
+        font-size: 15px;
+    }
+    .section_title {
+        font-size: 32px;
+    }
+    .what_we_strive_section {
+        padding: 60px 0;
+    }
+    .what_we_box svg {
+        max-width: 95px;
+        height: 95px;
+    }
+    .what_we_right_img ul:nth-child(1) {
+        margin-top: 40px;
+    }
+    .blue_btn a{
+        padding: 10.5px 15px;
+        height: 42px;
+    }
+    /*********************  What We Strive For Section CSS End *********************/
+
+    /*********************  Our Expe rtise at a Glance Section CSS Start *********************/
+    .strategy-sec h3 {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    .strategy-sec {
+        padding: 40px 40px 40px;
+    }
+    .wpb_wrapper:nth-child(n+2) {
+        margin-top: 35px;
+    }
+    .strategy-sec ul {
+        min-height: unset;
+    }
+    .our_expe_section {
+        padding: 60px 25px;
+    }
+    .our_expe_wrap .section_title {
+        margin: 5px 0 30px;
+    }
+    .strategy-sec p, .strategy-sec ul li {
+        font-size: 15px;
+    }
+    /*********************  Our Expe rtise at a Glance Section CSS End  *********************/
+    
+    /*********************  PROJECTS Section CSS Start *********************/
+    .pj_link_list{
+        display: none;
+    }
+    .projects_inner_section .cm_project_box:nth-child(n+2) {
+        margin-top: 20px;
+    }
+    .projects_inner_section .see_more {
+        margin-top: 35px;
+    }
+    .cm_section_pad {
+        padding: 60px 0;
+    }
+    /*********************  PROJECTS Section CSS End *********************/
+
+    /*********************  Grow With Section CSS Start *********************/
+    .grow_with_inner_section{
+        flex-direction: column-reverse;
+    }
+    .grow_circle{
+        max-width: 750px;
+    }
+    .grow_circle {
+        right: -250px;
+        top: 10%;
+    }
+    .grow_img{
+        margin-left: auto;
+    }
+    .grow_with_section {
+        padding: 80px 0 90px;
+    }
+    .grow_sub_title {
+        font-size: 40px;
+    }
+    .grow_with_inner_section .grow_sub_title {
+        margin: 5px 0 20px;
+    }
+    /*********************  Grow With Section CSS End *********************/
+
+    .common_inner_page .main-contain {
+        padding-top: 60px;
+    }
+    .common_case_details h3{
+        font-size: 34px;
+    }
+    .common_case_desc p, .the_challge_content .common_desc p, .rebuilding_details_block .common_desc p, .the_visulas_details .common_desc p{
+        font-size: 14px;
+    }
+    .common_platform_box{
+        margin-bottom: 20px;
+    }
+    .common_inner_sub_title h4{
+        font-size: 24px;
+    }
+    .common_the_approach_section{
+        max-width: 540px;
+    }
+    .tag_share_block{
+        flex-wrap: wrap;
+    }
+    .share_common_block {
+        margin-top: 55px;
+    }
+    .tag_common_block a{
+        margin: 0 5px 5px 0;
+    }
+    .common_testimonials_section, .common_the_solution_section, .common_business_collection, .common_rebuilding_entire_section,
+    .common_the_visulas_section{
+        margin: 0;
+    }
+    .lets_grow_block h2 {
+        font-size: 30px;
+    }
+    .lets_grow_block p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .lets_grow_block a{
+        padding: 10px 20px;
+    }
+    .rebuilding_iamge, .the_visulas_image{
+        max-width: 520px;
+    }
+    .common_only_share_section .share_common_block{
+        margin-top: 0;
+    }
+    /* Process Page CSS Start */
+    .banner_circle.blue_circle {
+        left: 19px;
+        top: -120px;
+    }
+    .flex_order{
+        order: 1;
+    }
+    .discover_image{
+        padding-bottom: 20px;
+    }
+    .base_line{
+        padding: 20px 0;
+    }
+    .discover_info hr{
+        margin: 0 auto;
+    }
+    .imgae_left .discover_info,
+    .discover_info{
+        text-align: center;
+    }
+    .four_columns{
+        padding: 0 15px;
+    }
+    .cta_info{
+        margin-top: 50px;
+    }
+    .piggi_image{
+        max-width: 320px;
+        margin-right: auto;
+    }
+    .cta_info h3 {
+        font-size: 35px;
+    }
+    .cta_section .container {
+        max-width: 500px;
+    }
+    .cta_section{
+        padding-top: 150px;
+    }
+    .cta_section::after {
+        height: 271%;
+        left: -30%;
+        width: 110%;
+        top: -157%;
+    }
+    .two_slides{
+        flex-direction: column;
+    }
+    .gradient_img_block {
+        width: 100%;
+    }
+    .slide_content_block {
+        width:100%;
+    }
+    /* Process Page CSS End */
+    /* About Page CSS Start */
+    .our-beginnings-inner{
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .our-beginnings-text{
+        order: 1;
+    }
+    .our-beginnings-img,
+    .our-beginnings-text{
+        width: 100%;
+    }
+    .our-beginnings-img{
+        margin-bottom: 25px;
+    }
+    .team-member {
+        width: 48.5%;
+    }
+    .team-member:not(:nth-child(3n)) {
+        margin-right: unset;
+    }
+    .team-member:nth-child(odd) {
+        margin-right: 3%;
+    }
+    .team-member_designation p, 
+    .team-member_description p {
+        font-size: 14px;
+    }
+    .team-member_connect p.lets-connect-text, .team-member_description p {
+        margin-bottom: 10px;
+    }
+    .team-member_connect p.lets-connect-text {
+        font-size: 12px;    
+    }
+    .our_value_section {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+    .our_value_heading p.info {
+        font-size: 14px;
+    }
+    .value_box {
+        margin-bottom: 25px;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .value_image svg {
+        width: 60px;
+        height: 70px;
+    }
+    .partner_img_col{
+        margin-bottom: 40px;
+    }
+    .partner_img_col:last-child{
+        margin-bottom: 0;
+    }
+    .partner_image img {
+        max-width: 220px;
+    }
+    .team-members-heading-title {
+        margin-bottom: 25px;
+    }
+    /* About Page CSS End */
+    /* Case Study Page CSS Start */
+    .book_banner_section h1 {
+        font-size: 40px;
+    }
+    .case_study_page .common_inner_sub_title h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .case_study_page .common_the_brand_section {
+        padding: 40px 0;
+    }
+    /* Case Study Page CSS End */
+    /* Project Page Start */
+    .project_page .piggi_image {
+        text-align: right;
+        margin-left: auto;
+        margin-right: unset;
+    }
+    .project_page .my_order{
+        order: 2;
+    }
+    .project_page .piggi_image {
+        max-width: 260px;
+    }
+    .project_page .cta_section::after {
+        right: -100px;
+    }
+    .project_page .banner_info h1 {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    .project_page .banner_circle.red_circle svg {
+        max-width: 574px;
+    }
+    .project_page .cm_project_box:nth-child(n+2) {
+        margin-top: 20px;
+    }
+    /* Project Page End */
+    .main-header.second_header{
+        background-color: #fff;
+    }
+    .dark .second_header .menu-main a img{
+        -webkit-filter: unset;
+        filter: unset;
+    }
+    .roude_1, .roude_2{
+        display: none;
+    }
+    .share_social_icon{
+        right: 0px;
+        left: 0;
+    }
+
+    .projects_img{
+        width: 50%;
+    }
+    .project_info{
+        width: 40%;
+    }
+    .cm_project_box {
+        min-height: 300px;
+    }
+    .project_pad:nth-child(n+2) {
+        margin-top: 12px;
+    }
+    .project_logo_img img {
+        max-width: 195px;
+    }
+    .cm_project_box{
+        justify-content: center;
+    }
+    .cm_project_box_1:hover .projects_img, .cm_project_box_4:hover .projects_img {
+        transform: translateX(75%);
+    }
+    .cm_hide_contain p {
+        font-size: 16px;
+        min-width: 164px;
+        left: 35px;
+    }
+    .cm_project_box_2 .cm_hide_contain p, .cm_project_box_3 .cm_hide_contain p{
+        right: 40px;
+    }
+    .cm_hide_contain p br{
+        display: none;
+    }
+    .cm_project_box_3:hover .projects_img {
+        transform: translateX(-75%);
+    }
+    .project_pad:nth-child(n+2) {
+        margin-top: 15px;
+    }
+    .cm_project_box_5 .projects_img img {
+        width: 93%;
+    }
+    .cm_project_box_3.cm_project_box_6:hover .projects_img {
+        transform: translateX(-85%);
+    }
+    .cm_project_box_1.cm_project_box_5:hover .projects_img {
+        transform: translateX(85%);
+    }
+}
+@media screen and (max-width: 575px) {
+    .san_francisco_page .common_only_share_section{
+        padding: 50px 0;
+    }
+    .project_page .banner_circle.blue_circle {
+        top: -110px;
+        left: -129px;
+    }
+    .menu_inner li span{
+        font-size: 14px;
+    }
+    .ttw_button{
+        padding: 4px 17px;
+        font-size: 18px;
+    }
+    .background-image{
+        right: -50% !important;
+        bottom: -40px;
+    }
+    .home_banner_inner_section h1{
+        font-size: 35px;
+        margin: 5px 0 15px;
+    }
+    .home_banner_inner_section > p{
+        font-size: 13px;
+    }
+    .home_banner_inner_section > span{
+        font-size: 12px;
+    }
+    .home_banner_inner_section > p {
+        margin-bottom: 15px;
+    }
+    .background_circle {
+        width: 110%;
+        height: 80%;
+        left: -15%;
+        bottom: -3%;
+    }
+    .home_banner_inner_section{
+        padding: 0;
+    }
+    .menu-main a img{
+        max-width: 180px;
+    }
+    a.grtin-btn {
+        padding: 10px 30px;
+    }
+    /*********************  What We Strive For Section CSS Start *********************/
+    .btn_desktop{
+        display: none;
+    }
+    .btn_mobile{
+        display: block;
+    }
+    .what_we_info .sub_text {
+        margin-bottom: 0;
+        line-height: 1.7;
+    }
+    .what_we_right_img {
+        margin-top: 20px;
+    }
+    .what_we_box p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .what_we_strive_inner_section .blue_btn{
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .what_we_right_img {
+        max-width: calc(430px - 15px);
+    }
+    .what_we_right_img ul{
+        width: calc(50% - 15px);
+    }
+    .what_we_box{
+        width: unset;
+        height: unset;
+        padding: 25px;
+    }
+    .what_we_box svg {
+        max-width: 87px;
+        height: 87px;
+    }
+    .what_we_right_img ul:nth-child(1) {
+        margin-top: 0px;
+    }
+    .what_we_right_img ul li + li {
+        margin-top: 30px;
+    }
+    .sub_text {
+        font-size: 14px;
+    }
+    .section_title {
+        font-size: 28px;
+    }
+    /*********************  What We Strive For Section CSS End *********************/
+
+    /*********************  Our Expe rtise at a Glance Section CSS Start *********************/
+    .strategy-sec ul li:after{
+        width: 50px;
+    }
+    .strategy-sec {
+        padding: 35px;
+    }
+    .strategy-sec ul li {
+        padding-left: 65px;
+    }
+    /*********************  Our Expe rtise at a Glance Section CSS End  *********************/
+
+    /*********************  PROJECTS Section CSS Start *********************/
+    .projects_inner_section .cm_project_box:nth-child(n+2) {
+        margin-top: 12px;
+    }
+    .projects_inner_section .see_more {
+        margin-top: 30px;
+    }
+    /*********************  PROJECTS Section CSS End *********************/
+
+    /*********************  Footer Section CSS Start *********************/
+    footer {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .top-inner-footer{
+        text-align: center;
+    }
+    .footer-inner{
+        order: 1;
+    }
+    .footer-inner .f-block{
+        width: 100%;
+        padding-right: 20px;
+    }
+    .site-map-block{
+        width: 100%;
+    }
+    .top-inner-footer{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .f-block.carrer-block{
+        margin-bottom: 0;
+    }
+    .bottom-footer-inner ul li.privacy-policy{
+        display: none;
+    }
+    .bottom-footer-inner ul {
+        display: flex;  
+        flex-wrap: wrap;
+    }
+    .bottom-footer-inner ul li{
+        width: 50%;
+    }
+    .bottom-footer-inner ul li.reserved-text{
+        width: 100%;
+        order: 1;
+    }
+    .bottom-footer-inner ul li{
+        margin-right: 0;
+        font-size: 12px;
+    }
+    .mobile-version{
+        display: none;
+    }
+    .desktop-version{
+        display: block;
+    }
+    .site-map-block{
+        font-size: 16px;
+    }
+    .site-map-block li {
+        margin-bottom: 10px;
+    }
+    .f-block {
+        font-size: 14px;
+    }
+    /*********************  Footer Section CSS End *********************/
+
+    /*********************  Grow With Section CSS Start *********************/
+    .grow_circle{
+        width: 80%;
+        height: 450px;
+        transform: translateY(0) rotate(180deg);
+        right: 0;
+        top: 0;
+    }
+    .grow_circle img {
+        width: 633px;
+        height: 633px;
+        object-fit: cover;
+        object-position: right;
+    }
+    .grow_img {
+        margin-left: auto;
+        padding-right: 40px;
+    }
+    .grow_sub_text {
+        font-size: 12px;
+    }
+    /*********************  Grow With Section CSS End *********************/
+
+    /*********************  Our Clients Say Section CSS Start *********************/
+    .our_clients_slider{
+        margin-top: -30px;
+    }
+    .profile_dec {
+        min-height: 193px;
+    }
+    .clutch_img{
+        width: 22px;
+    }
+    .profile_dec h3 {
+        font-size: 21px;
+    }
+    .profile_img {
+        width: 70px;
+        height: 70px;
+    }
+    .profile_dec p {
+        font-size: 14px;
+    }
+    .profile_details p{
+        display: none;
+    }
+    .our_clients_slider .slick-dots{
+        display: flex;
+        max-width: 285px;
+        margin: -10px auto 0;
+    }
+    .our_clients_slider .slick-dots li{
+        flex-grow: 1;
+    }
+    .our_clients_slider .slick-dots li + li{
+        margin-left: 10px;
+    }
+    .our_clients_slider .slick-dots button{
+        font-size: 0px;
+        background: #2D6DF2;
+        width: 100%;
+        border: unset;
+        outline: unset;
+        height: 2px;
+        opacity: 0.25;
+    }
+    .our_clients_slider .slick-dots .slick-active button{
+        opacity: 1;
+    }
+    /*********************  Our Clients Say Section CSS End *********************/
+
+    /*********************  check_out Section CSS Start *********************/
+    .check_out_single{
+        box-shadow: 0 10px 20px rgb(0 0 0 / 16%);
+    }
+    .check_out_single{
+        max-width: 310px;
+        margin: 0 auto;
+    }
+    .check_out_desc {
+        padding: 30px 25px 30px;
+    }
+    .check_out_section .more_links {
+        margin-top: 40px;
+    }
+    /*********************  check_out Section CSS End *********************/
+
+    .the_solution_image{
+        max-width: 100%;
+    }
+    .the_challge_image img {
+        max-width: 130%;
+    }
+    .testimonials_image {
+        max-width: 130px;
+        height: 130px;
+    }
+    .testimonials_content .common_desc p{
+        font-size: 16px;
+    }
+    .testimonials_name h3 {
+        font-size: 24px;
+    }
+    .testimonials_name p, .common_title_label{
+        font-size: 14px;
+    }
+    .common_inner_page_logo{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .common_inner_page_banner_section {
+        max-height: 430px;
+        min-height: 430px;
+    }
+    .common_article_page_section .business_collection_image img{
+        border-radius: 20px;
+    }
+    .rebuilding_iamge, .the_visulas_image{
+        padding: 0 15px;
+    }
+    /* Process Page CSS Start */
+    .banner_section{
+        height: 475px;
+    }
+    .banner_circle.orenge_circle {
+        right: -330px;
+    }
+    .banner_circle.blue_circle {
+        left: 9px;
+        top: -110px;
+    }
+    .banner_circle.orenge_circle svg {
+        max-width: 610px;
+        height: 610px;
+    }
+    .banner_circle.red_circle {
+        left: -230px;
+    }
+    .discover_info p{
+        font-size: 14px;
+    }
+    .four_fold_header p{
+        font-size: 14px;
+        color: #4A4949;
+    }
+    .discover_image {
+        max-width: 100px;
+    }
+    .cta_info p{
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .cta_section::after {
+        height: 201%;
+        left: -60%;
+        width: 141%;
+        top: -117%;
+    }
+    /* Process Page CSS End */
+    /* About Page CSS Start */
+    .team-member {
+        width: 100%;
+    }
+    .team-member:nth-child(odd) {
+        margin-right: 0;
+    }
+    .team-member_img {
+        height: 310px;
+    }
+    .team-member_designation p{
+        font-size:12px;
+    }
+    .team-member {
+        margin-bottom: 40px;
+    }
+    .banner_info span{
+        display: none;
+    }
+    .about_page .banner_circle.orenge_circle {
+        left: -340px;
+        bottom: 40px;
+    }
+    .about_page .banner_circle.red_circle {
+        top: -10px;
+        right: -20px;
+    }
+    .about_page .banner_circle.red_circle svg{
+        width: 100px;
+        height: 100px;
+    }
+    .about_page .banner_circle.blue_circle svg {
+        max-width: 270px;
+        height: 270px;
+    }
+    .our_value_heading p.info{
+        display: none;
+    }
+    .our_value_boxes {
+        padding-top: 10px;
+    }
+    .team-members-section{
+        padding-bottom: 30px;
+    }
+    .cta_outer{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    /* About Page CSS End */
+    /* Case Study Page CSS Start */
+    .case_study_page .common_business_collection {
+        padding-top: 40px;
+    }
+    .case_study_page .the_build_section .common_case_desc p {
+        font-size: 14px;
+    }
+    .case_study_page .common_inner_sub_title h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .case_study_page .common_the_solution_section {
+        padding-top: 10px;
+    }
+    /* Case Study Page CSS End */
+    /* Project Page CSS Start */
+    .project_page .cta_section::after {
+        height: 221%;
+        left: -20%;
+        width: 161%;
+        top: -137%;
+    }
+    .project_page .cm_project_box:nth-child(n+2) {
+        margin-top: 10px;
+    }
+    .case_titles {
+        margin-bottom: 30px;
+    }
+    .case_section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    /* Project Page CSS End */
+
+    .modal-open{
+        padding-right: 0px !important;
+    }
+    .modal_pop_up  .our_expe_wrap .section_title{
+        font-size: 21px;
+        max-width: 309px;
+    }
+    .modal_pop_up .cm-btn-close{
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+    .site-map-block ul li{
+        text-align: center;
+    }
+    .top-inner-footer{
+        text-align: center;
+    }
+    .home_banner_section{
+        height: 100vh;
+    }
+    .about_page .footer-wrapper,
+    .process_page .footer-wrapper{
+        margin-top: 60px;
+    }
+    .projects_section .section_title br{
+        display: block;
+    }
+    .case_study_page .footer-wrapper{
+        margin-top: 50px;
+    }    
+
+    .project_logo_img img {
+        max-width: 100%;
+    }
+    .cm_hide_contain p {
+        font-size: 15px;
+        min-width: 158px;
+        left: 12%;
+    }
+    .projects_img {
+        width: 40%;
+    }
+    .cm_project_box_2:hover .projects_img {
+        transform: translateX(-85%);
+    }
+    .cm_project_box_2 .cm_hide_contain p, .cm_project_box_3 .cm_hide_contain p {
+        right: 12%;
+    }
+    .cm_project_box_1:hover .projects_img{
+        transform: translateX(103%);
+    }
+    .cm_project_box_4:hover .projects_img {
+        transform: translateX(84%);
+    }
+    .cm_project_box_2 .projects_img {
+        width: 50%;
+    }
+    .cm_project_box_3:hover .projects_img {
+        transform: translateX(-115%);
+    }
+    .cm_project_box_4:hover .projects_img {
+        transform: translateX(103%);
+    }
+    .cm_project_box_4 .cm_hide_contain p{
+        min-width: 150px;
+    }
+    .cm_project_box_1.cm_project_box_5:hover .projects_img {
+        transform: translateX(110%);
+    }
+}
+@media screen and (max-width: 450px) {
+    /*********************  What We Strive For Section CSS Start *********************/
+    .what_we_right_img {
+        max-width: calc(100% - 40px);
+    }
+    .what_we_box p {
+        font-size: 11px;
+    }
+    .what_we_right_img {
+        max-width: 100%;
+    }
+    .grow_img img {
+        max-width: 200px;
+    }
+    .grow_circle{
+        height: 410px;
+    }
+    .grow_img {
+        margin-left: auto;
+        padding-right: 10px;
+    }
+    .grow_with_left_info{
+        margin-top: 20px;   
+    }
+    /*********************  What We Strive For Section CSS End *********************/
+
+    .common_inner_page_logo{
+        max-width: 300px;
+    }
+    /* Process Page CSS Start */
+    .cta_section {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+    .piggi_image {
+        max-width: 260px;
+        margin-left: 20px;
+    }
+    .cta_section::after {
+        height: 231%;
+        left: -80%;
+        width: 20px;
+        width: 161%;
+        top: -97%;
+        background-size: 110%;
+    }
+    .ctn_desktop_btn{
+        display: none;
+    }
+    .cta_btn.mobile_btn{
+        display: inline-block;
+    }
+    .banner_circle.blue_circle svg {
+        max-width: 190px;
+        height: 190px;
+    }
+    .banner_info h1 {
+        font-size: 28px;
+    }
+    .slider-gallery .slick-slide img {
+        max-width: 210px;
+    }
+    /* Process Page CSS End */
+    /* About Page CSS Start */
+    .about_page .banner_circle.orenge_circle {
+        left: -320px;
+        bottom: 230px;
+    }
+    .about_page .banner_circle.red_circle {
+        top: -20px;
+        right: -20px;
+    }
+    .about_page .banner_circle.blue_circle {
+        right: -110px;
+        bottom: -130px;
+    }
+    .value_info p{
+        font-size: 12px;
+    }
+    .value_image svg {
+        width: 50px;
+        height: 60px;
+    }
+    .value_image .big_svg {
+        width: 46px;
+    }
+    .about_page .piggi_image {
+        max-width: 280px;
+        margin-left: 20px;
+    }
+    .about_page .cta_section {
+        padding-top: 110px;
+    }
+    /* About Page CSS End */
+    /* Project Page CSS Start */
+    .project_page .cta_section::after {
+        left: 20%;
+        top: -97%;
+    }
+    .project_page .banner_info h1 {
+        font-size: 35px;
+    }
+    .project_page .banner_circle.red_circle svg {
+        max-width: 484px;
+    }
+    .project_page .piggi_image {
+        max-width: 190px;
+    }
+    .project_page .banner_circle.blue_circle {
+        top: -90px;
+        left: -100px;
+    }
+    .case_section {
+        padding-top: 65px;
+        padding-bottom: 80px;
+    }
+    /* Project Page CSS End */
+
+    .cm_project_box {
+        min-height: 270px;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .background-image{
+        right: -70% !important;
+    }
+    .home_banner_inner_section h1 {
+        font-size: 28px;
+    }
+
+    .cm_project_box {
+        min-height: 250px;
+    }
+    .cm_hide_contain p {
+        font-size: 15px;
+        min-width: 158px;
+        left: 8%;
+    }
+    .cm_project_box_2 .cm_hide_contain p, .cm_project_box_3 .cm_hide_contain p {
+        right: 4%;
+    }
+    .cm_project_box_3.cm_project_box_6:hover .projects_img {
+        transform: translateX(-120%);
+    }
+    .cm_project_box {
+        min-height: 230px;
+    }
+}
+@media (max-width:375px){
+    /* About Page CSS Start */
+    .about_page .banner_circle.orenge_circle {
+        left: -350px;
+        bottom: 240px;
+    }
+    .about_page .piggi_image {
+        max-width: 210px;
+        margin: 0 auto;
+    }
+    /* About Page CSS End */
+    /* Case Study Page CSS Start */
+    .case_study_page .common_inner_page_banner_section {
+        min-height: 340px;
+    }
+    .case_study_page .the_build_section {
+        padding-top: 30px;
+    }
+    .case_study_page .the_build_section .common_case_desc p {
+        padding-bottom: 10px;
+    }
+    .case_study_page .the_challge_image.image_wi img {
+        margin-bottom: 30px;
+    }
+    .case_study_page .common_the_challege_section {
+        padding: 40px 0 40px;
+    }
+    .book_banner_section h1 {
+        text-align: center;
+        font-size: 30px;
+        max-width: 250px;
+    }
+    .project_page .cta_section::after {
+        height: 221%;
+        left: 10%;
+        width: 171%;
+        top: -107%;
+    }
+    /* Case Study Page CSS End */
+    /* Project PAge Start */
+    .project_page .banner_info h1 {
+        font-size: 30px;
+    }
+    .project_page .banner_circle.red_circle svg {
+        max-width: 414px;
+    }
+    /* Project PAge End */
+}
+@media screen and (max-width: 367px) {
+    .background-image{
+        height: 275px !important;
+    }
+    .what_we_right_img ul {
+        width: calc(50% - 10px);
+    }
+    .what_we_right_img ul li + li {
+        margin-top: 20px;
+    }
+    .what_we_box{
+        padding: 15px;
+    }
+    .cm_project_box {
+        min-height: 200px;
+    }
+    .cm_hide_contain p {
+        font-size: 14px;
+        min-width: 142px;
+        left: 4%;
+    }
+    .cm_project_box_4 .cm_hide_contain p {
+        min-width: 130px;
+    }
+    .cm_project_box {
+        padding: 15px;
+    }
+
+}
+@media (max-width:320px){
+    /* Process Page CSS Start */
+    .cta_info h3 {
+        font-size: 29px;
+    }
+    .piggi_image {
+        max-width: 200px;
+    }
+    /* Process Page CSS End */
+    /* About Page CSS Start */
+    .about_page .banner_circle.orenge_circle {
+        left: -400px;
+    }
+    .banner_section {
+        height: 445px;
+    }
+    /* About Page CSS Start */
+    /* Project Page CSS Start */
+    .project_page .cta_section::after {
+        right: -230px;
+        top: -95%;
+    }
+    /* Project Page CSS End */
+}
