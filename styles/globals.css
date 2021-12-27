@@ -2829,6 +2829,17 @@ body > .menu{
 .strategy-sec:hover .text-btn i{
     transform: translateX(5px);
 }
+
+
+
+
+
+
+
+.background_circle  span,
+.background-image  span{
+    position: unset !important;
+}
 /* 
     font-family: 'Poppins', sans-serif;
     font-family: 'Playfair Display', serif;

@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Header from '../component/home/Header'
 import Homebanner from '../component/home/Homebanner'
-
+import Whatwestrive from '../component/home/Whatwestrive'
+import OurExpertise from '../component/home/OurExpertise'
+import Project from '../component/home/Project'
 
 export default function Home() {
   return (
@@ -15,6 +17,9 @@ export default function Home() {
         <Header/>
         <div className='main-contain'>
             <Homebanner />
+            <Whatwestrive />
+            <OurExpertise />
+            <Project />
         </div>
     </div>
   )

@@ -1,9 +1,39 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Image from 'next/image'
 
 import logo from '../../assets/image/Lifted-Solutions-Logo.svg'
+import $ from "jquery";
 
 const Header = () => {
+    useEffect(() => {    
+        window.addEventListener('wheel', function(event){
+            // new_One();
+            setTimeout(() => {
+                var scroll = $(window).scrollTop();
+                $('body').attr('scroll-data', scroll);
+                
+                if((scroll > 70) && scroll <= 90){
+                    $(".main-header").addClass("second_header");
+                }
+                else if(scroll > 100){
+                    $(".main-header").removeClass("second_header");
+                    $(".main-header").addClass("header_not_show");
+                    if (event.deltaY < 0) {
+                        $(".main-header").addClass("second_header");
+                        $(".main-header").removeClass("header_not_show");
+                    }
+                    else if (event.deltaY > 0) {
+                        $(".main-header").removeClass("second_header");
+                        $(".main-header").addClass("header_not_show");
+                    }
+                }
+                else if (scroll < 100){
+                    $(".main-header").removeClass("second_header header_show header_not_show");
+                }
+            }, 50);
+        });
+   }, [])
+
     return (
         <div className="main-header">
             <div className="container">
@@ -49,7 +79,7 @@ const Header = () => {
                                 <li>
                                     <div className="switch">
                                         <input id="themeSwitch" className="switch__input themeSwitch" type="checkbox" />
-                                        <label className="switch__label" forHtml="themeSwitch" >On</label>
+                                        <label className="switch__label" forhtml="themeSwitch" >On</label>
                                         <div className="switch__marker" aria-hidden="true"></div>
                                     </div>
                                 </li>
