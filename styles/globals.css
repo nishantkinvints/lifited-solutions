@@ -991,6 +991,13 @@ a.inner-strategy-sec-btn{
     /* padding: 45px; */
     /* opacity: 0.5; */
 }
+.our_clients_slider .slick-track{
+    margin-left: -20px !important;
+    display: flex;
+}
+.our_clients_slider .slick-slide > div{
+    padding: 0 15px;
+}
 .profile_dec{
     min-height: 250px;
     overflow: hidden;
@@ -1030,7 +1037,7 @@ a.inner-strategy-sec-btn{
     font-size: 20px;
 }
 .our_clients_slider .slick-list {
-    padding-left: 20px !important;
+    padding-left: 0px !important;
 }
 .clients_say_wrap_in {
     box-shadow: 0px 8px 12px #00000029;
@@ -1046,13 +1053,13 @@ a.inner-strategy-sec-btn{
 .clients_say_wrap_in:hover{
     border-color: #2D6DF2;
 }
-.clients_say_wrap + .clients_say_wrap {
+/* .slick-slide + .slick-slide {
     margin-right: 30px;
-}
-.our_clients_slider .slick-track{
+} */
+.our_clients_say_section .our_clients_slider .slick-track{
     padding: 40px 0 45px 20px;
 }
-.clients_say_wrap.slick-center + .clients_say_wrap.slick-active ~ .clients_say_wrap{
+.our_clients_say_section .slick-slide.slick-center + .slick-slide.slick-active ~ .slick-slide{
     opacity: 0.5;
 }
 .profile_details p{
@@ -1233,9 +1240,9 @@ footer {
 .desktop-version{
     display: none;
 }
-.clutch_img {
+.clutch_img a > span{
     display: inline-block;
-    margin-right: 7px;
+    margin-right: 7px !important;
 }
 /*********************  Footer Section CSS End *********************/
 

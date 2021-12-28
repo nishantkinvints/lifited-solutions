@@ -5,7 +5,54 @@ import logo from '../../assets/image/Lifted-Solutions-Logo.svg'
 import $ from "jquery";
 
 const Header = () => {
-    useEffect(() => {    
+
+    useEffect(() => { 
+
+        $( ".menu" ).clone().appendTo( "body" );
+        
+        /*--------- Toggle Menu ----------*/
+        $(".main_toggle").click(function() {
+            $(".menu_inner").addClass('show');
+            $("body").addClass('cm_overflow');
+            $('.menu_inner > li').addClass('open');
+            $('html').addClass('overflow_body')
+        });
+        
+        $(".close_toggle").click(function() {
+            $(".menu_inner").removeClass('show');
+            $("body").removeClass('cm_overflow');
+            $('.menu_inner > li').removeClass('open');
+            $('html').removeClass('overflow_body')
+        });
+
+        /*--------- Switch Mode Js ----------*/
+        $('.themeSwitch').change(function() {
+            if($(this).prop("checked") == true) {
+                localStorage.setItem('nav-color', 'dark');
+                $('body').removeClass('light');
+                $('body').addClass('dark');
+            }else{
+                localStorage.setItem('nav-color', 'light');
+                $('body').addClass('light');
+                $('body').removeClass('dark');
+            }
+        });
+        
+        var nav_color = localStorage.getItem('nav-color');
+        if(nav_color != null){
+            if(nav_color == 'dark'){
+                $('body').removeClass('light');
+                $('body').addClass('dark');
+                $('#themeSwitch').prop('checked', true);
+            }
+            else{
+                $('body').removeClass('dark');
+                $('body').addClass('light');
+                $('#themeSwitch').prop('checked', false);
+            }
+        }
+        
+        
         window.addEventListener('wheel', function(event){
             // new_One();
             setTimeout(() => {
@@ -79,7 +126,7 @@ const Header = () => {
                                 <li>
                                     <div className="switch">
                                         <input id="themeSwitch" className="switch__input themeSwitch" type="checkbox" />
-                                        <label className="switch__label" forhtml="themeSwitch" >On</label>
+                                        <label className="switch__label" htmlFor="themeSwitch" >On</label>
                                         <div className="switch__marker" aria-hidden="true"></div>
                                     </div>
                                 </li>

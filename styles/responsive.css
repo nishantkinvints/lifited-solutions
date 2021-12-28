@@ -140,7 +140,7 @@
         margin: 0px;
     }
     .grow_img img{
-        max-width: 320px;
+        max-width: 320px !important;
     }
     .grow_with_inner_section .grow_sub_title {
         margin: 10px 0 25px;
@@ -411,7 +411,7 @@
 
     /*********************  Grow With Section CSS Start *********************/
     .grow_img img{
-        max-width: 300px;
+        max-width: 300px !important;
     }
     .grow_sub_title {
         font-size: 54px;
@@ -784,7 +784,7 @@
         top: -125px;
     }
     .menu-main a img{
-        max-width: 250px;
+        max-width: 250px !important;
     }
     a.grtin-btn{
         padding: 13.5px 40px;
@@ -1240,7 +1240,7 @@
 
     /*********************  Grow With Section CSS Start *********************/
     .grow_img img {
-        max-width: 250px;
+        max-width: 250px !important;
     }
     .grow_circle {
         right: -1050px;
@@ -1639,7 +1639,7 @@
         font-size: 14px;
     }
     .menu-main a img{
-        max-width: 200px;
+        max-width: 200px !important;
     }
     a.grtin-btn{
         font-size: 12px !important;
@@ -2006,6 +2006,10 @@
     }
 }
 @media screen and (max-width: 575px) {
+    .our_clients_slider .slick-slider{
+        display: flex;
+        justify-content: center;
+    }
     .san_francisco_page .common_only_share_section{
         padding: 50px 0;
     }
@@ -2047,7 +2051,7 @@
         padding: 0;
     }
     .menu-main a img{
-        max-width: 180px;
+        max-width: 180px !important;
     }
     a.grtin-btn {
         padding: 10px 30px;
@@ -2194,8 +2198,8 @@
         top: 0;
     }
     .grow_circle img {
-        width: 633px;
-        height: 633px;
+        width: 633px !important;
+        height: 633px !important;
         object-fit: cover;
         object-position: right;
     }
@@ -2250,9 +2254,13 @@
         outline: unset;
         height: 2px;
         opacity: 0.25;
+        padding: unset;
     }
     .our_clients_slider .slick-dots .slick-active button{
         opacity: 1;
+    }
+    .slick-dots li button:before{
+        content: none;
     }
     /*********************  Our Clients Say Section CSS End *********************/
 
@@ -2511,7 +2519,7 @@
         max-width: 100%;
     }
     .grow_img img {
-        max-width: 200px;
+        max-width: 200px !important;
     }
     .grow_circle{
         height: 410px;

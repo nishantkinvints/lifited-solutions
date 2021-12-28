@@ -1,5 +1,38 @@
 import React from 'react'
 
+var OurexpertiseData = [
+    {   
+        Ourexperticategory : 'Technology',
+        id : 'OurexpertiseData1',
+        expertiseList : ['System Architecture', 'Tailored Web Applications', 'Mobile App Development' ,'Custom Web Development', 'CMS Development', 'Performance Optimization'],
+        services : "Technology Services" ,
+    },
+    {   
+        Ourexperticategory : 'Creative',
+        id : 'OurexpertiseData2',
+        expertiseList : ['U/UX Design', 'Logo + Brand', 'Brand Strategy, Guidelines User', 'Flows + Prototypes', 'Marketing Collateral', 'Photography + Video'],
+        services : "Creative Services" ,
+    },
+    {   
+        Ourexperticategory : 'Strategys',
+        id : 'OurexpertiseData3',
+        expertiseList : ['Business Growth Strategy', 'Conversion Path Analysis', 'Conversion Path Analysis' ,'Conversion Optimization', 'Marketing Funnels', 'Business Roadmap'],
+        services : "Strategy Services" ,
+    },
+    {   
+        Ourexperticategory : 'eCommerce',
+        id : 'OurexpertiseData4',
+        expertiseList : ['Shopify Store Front', 'Custom Shopify Applications', 'Overall Product Management' ,'Conversion Optimization', 'Integrated Marketing Funnels', 'Advanced Analytics'],
+        services : "eCommerce Services" ,
+    },
+    {   
+        Ourexperticategory : 'Marketing',
+        id : 'OurexpertiseData5',
+        expertiseList : ['Social Media Advertising', 'Google Advertising', 'Advanced Analytics' ,'Content Publishing Packages', 'Community Management', 'Influencer Marketing'],
+        services : "Marketing Services",
+    }
+]
+
 const OurExpertise = () => {
     return (
         <div className="our_expe_section">
@@ -10,82 +43,29 @@ const OurExpertise = () => {
                             <h2 className="section_title wow fadeInUp">Our Expertise at a Glance.</h2>
                         </div>
                         <div className="row">
-                            <div className="col-lg-4 col-md-6 wpb_wrapper">
-                                <div className="strategy-sec wow zoomIn">
-                                    <h3>Technology</h3>
-                                    <ul>
-                                        <li>System Architecture</li>
-                                        <li>Tailored Web Applications</li>
-                                        <li>Mobile App Development</li>
-                                        <li>Custom Web Development</li>
-                                        <li>CMS Development</li>
-                                        <li>Performance Optimization</li>
-                                    </ul>
-                                    <p>
-                                        <a className="text-btn" href="#0">Technology Services <i className="fa fa-long-arrow-right"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wpb_wrapper">
-                                <div className="strategy-sec wow zoomIn">
-                                    <h3>Creative</h3>
-                                    <ul>
-                                        <li>U/UX Design</li>
-                                        <li>Logo + Brand</li>
-                                        <li>Brand Strategy, Guidelines</li>
-                                        <li>User Flows + Prototypes</li>
-                                        <li>Marketing Collateral</li>
-                                        <li>Photography + Video</li>
-                                    </ul>
-                                    <p><a className="text-btn" href="#0">Creative Services <i className="fa fa-long-arrow-right"></i></a></p>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wpb_wrapper">
-                                <div className="strategy-sec wow zoomIn">
-                                    <h3>Strategy</h3>
-                                    <ul>
-                                        <li>Business Growth Strategy</li>
-                                        <li>Conversion Path Analysis</li>
-                                        <li>Competitive Analysis</li>
-                                        <li>Conversion Optimization</li>
-                                        <li>Marketing Funnels</li>
-                                        <li>Business Roadmap</li>
-                                    </ul>
-                                    <p><a className="text-btn" href="#0">Strategy Services <i className="fa fa-long-arrow-right"></i></a></p>
-                                </div>
-                            </div>
-                            
-
-                            <div className="col-lg-4 col-md-6 wpb_wrapper">
-                                <div className="strategy-sec wow zoomIn">
-                                    <h3>eCommerce</h3>
-                                    <ul>
-                                        <li>Shopify Store Front</li>
-                                        <li>Custom Shopify Applications</li>
-                                        <li>Overall Product Management</li>
-                                        <li>Conversion Optimization</li>
-                                        <li>Integrated Marketing Funnels</li>
-                                        <li>Advanced Analytics</li>
-                                    </ul>
-                                    <p><a className="text-btn" href="#0">eCommerce Services <i className="fa fa-long-arrow-right"></i></a></p>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 wpb_wrapper">
-                                <div className="strategy-sec wow zoomIn">
-                                    <h3>Marketing</h3>
-                                    <ul>
-                                        <li>Social Media Advertising</li>
-                                        <li>Google Advertising</li>
-                                        <li>Advanced Analytics</li>
-                                        <li>Content Publishing Packages</li>
-                                        <li>Community Management</li>
-                                        <li>Influencer Marketing</li>
-                                    </ul>
-                                    <p><a className="text-btn" href="#0">Marketing Services <i className="fa fa-long-arrow-right"></i></a></p>
-                                </div>
-                            </div>
-
+                            {
+                                OurexpertiseData.map((val) => {
+                                    return(
+                                        <div className="col-lg-4 col-md-6 wpb_wrapper" key={val.id}>
+                                            <div className="strategy-sec wow zoomIn">
+                                                <h3>{val.Ourexperticategory}</h3>
+                                                    <ul>
+                                                        {
+                                                            val.expertiseList.map((innerval, index) => {
+                                                                return(
+                                                                        <li key={'list' + index}>{innerval}</li>
+                                                                )
+                                                            })
+                                                        }
+                                                    </ul>
+                                                <p>
+                                                    <a className="text-btn" href="#0">{val.services} <i className="fa fa-long-arrow-right"></i></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    )
+                                })
+                            }
                             <div className="col-lg-4 col-md-6 wpb_wrapper">
                                 <div className="strategy-sec inner-strategy-sec wow zoomIn">
                                     <h3>Dont’ See<br />

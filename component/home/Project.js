@@ -95,7 +95,7 @@ const Project = () => {
                                     </div>
                                     <div className="project_info">
                                         <div className="project_logo_img">
-                                            <Image src={nproject_anner_3} alt="banner"/>
+                                            <Image src={project_ogo_3} alt="banner"/>
                                         </div>
                                         <ul className="pj_link_list pj_link_list_3">
                                             <li>
@@ -110,7 +110,7 @@ const Project = () => {
                                         </ul>
                                     </div>
                                     <div className="projects_img">
-                                        <Image src={project_ogo_3} alt="project img"/>
+                                        <Image src={nproject_anner_3} alt="project img"/>
                                     </div>
                                 </div>
                             </div>
