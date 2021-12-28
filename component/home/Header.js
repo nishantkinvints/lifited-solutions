@@ -53,7 +53,7 @@ const Header = () => {
         }
         
         
-        window.addEventListener('wheel', function(event){
+        window.addEventListener('wheel scroll', function(event){
             // new_One();
             setTimeout(() => {
                 var scroll = $(window).scrollTop();
