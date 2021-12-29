@@ -46,22 +46,6 @@ const Homebanner = () => {
             $('.background-image').css("width", windows_windth / 0.9);
             $('.background-image').css("height", windows_height / 1.2);
         }
-        //  $(window).on('load resize', function() {
-        //      Left_Pad();
-        //  });
-     
-        //  function Left_Pad(){
-        //      var left_pad = $('.our_clients_say_section .container').offset().left;
-        //      var checkWidth = $(window).width();
-             
-        //      if( ((checkWidth <= 1215) && (checkWidth >= 1200)) || ((checkWidth >= 0) && (checkWidth <= 575)) ) {
-        //          $('.our_clients_say_section .cm_pad').css({"padding-left" : "12px"})
-        //      }
-        //      else{
-        //          $('.our_clients_say_section .cm_pad').css({"padding-left" : left_pad})
-        //      }
-        //  }
-     
      
          window.addEventListener('wheel', function(event){
              // new_One();

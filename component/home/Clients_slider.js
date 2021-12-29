@@ -60,7 +60,6 @@ const Clients_slider = () => {
         ]
     };
 
-
     return (
         <div className="our_clients_say_section cm_section_pad">
             <div className="container"></div>

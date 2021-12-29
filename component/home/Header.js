@@ -53,7 +53,7 @@ const Header = () => {
         }
         
         
-        window.addEventListener('wheel scroll', function(event){
+        window.addEventListener('wheel', function(event){
             // new_One();
             setTimeout(() => {
                 var scroll = $(window).scrollTop();
@@ -87,14 +87,14 @@ const Header = () => {
                 <div className="header-wrapper">
                     <header>
                         <div className="menu-main">
-                            <a href="#">
+                            <a href={`/`}>
                                 <Image src={logo} className="logo_img" alt="logo"/>
                             </a>
                         </div>
                         <div className="menu">
                             <ul className="menu_inner">
                                 <li className="last">
-                                    <a href="about.html" className="menu_text">
+                                    <a href="/about" className="menu_text">
                                         <span className="anim">About</span>
                                     </a>
                                 </li>

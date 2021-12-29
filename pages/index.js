@@ -22,6 +22,7 @@ export default function Home() {
         <Loader/>
         <Header/>
         <div className='main-contain'>
+
             <Homebanner />
             <Whatwestrive />
             <OurExpertise />
