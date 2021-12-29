@@ -104,7 +104,7 @@ const Header = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="process.html" className="menu_text">
+                                    <a href="process" className="menu_text">
                                         <span className="anim">Process</span> 
                                     </a>                         
                                 </li>   

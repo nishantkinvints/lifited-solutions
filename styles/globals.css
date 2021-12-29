@@ -2005,8 +2005,12 @@ footer {
 .slider-preview li img {
     margin: -50px auto 0;
 }
-.gradient_img_block .slick-list{
+/* .gradient_img_block .slick-list{
     overflow: unset;
+} */
+.gradient_img_block .type-image{
+    display: flex !important;
+    justify-content: center !important;
 }
 .slide_content h3{
     opacity: 0.8;
@@ -2048,7 +2052,12 @@ footer {
     margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: flex !important;
+    position: unset;
+}
+.slider-gallery .slick-dots li{
+    width: 50px;
+    height: 2.5px;
 }
 .slider-gallery .slick-dots .slick-active button {
     opacity: 1;
@@ -2056,12 +2065,16 @@ footer {
 }
 .slider-gallery .slick-dots li button{
     font-size: 0;
+    padding: 0;
     opacity: 0.3;
     border: none;
     width: 50px;
     height: 2.5px;
     margin-right: 15px;
     background-color: #111111;
+}
+.slider-gallery .slick-dots li button:before{
+    content: unset;
 }
 .happy_slide_btn{ 
     text-align: center;
@@ -2618,6 +2631,9 @@ body.dark, .dark .our_value_section{
 .dark .four_inner_main.four_bg,
 .dark .cta_section{
     background-color: #171717;
+}
+.four_inner_main.four_bg .row{
+    flex-direction: row-reverse;
 }
 .dark .common_business_collection {
     padding-top: 80px;

@@ -1001,7 +1001,7 @@
         padding: 50px 0;
     }
     .partner_image img{
-        max-width: 200px;
+        max-width: 200px !important;
     }
     .partner_small_img img{
         max-width: 260px;
@@ -1494,7 +1494,7 @@
         max-width: 100%;
     }
     .partner_image img {
-        max-width: 140px;
+        max-width: 140px !important;
     }
     .partner_small_img img {
         max-width: 220px;
@@ -1898,7 +1898,7 @@
         margin-bottom: 0;
     }
     .partner_image img {
-        max-width: 220px;
+        max-width: 220px !important;
     }
     .team-members-heading-title {
         margin-bottom: 25px;
@@ -2006,6 +2006,9 @@
     }
 }
 @media screen and (max-width: 575px) {
+    .team-member_img a > span{
+        width: 100% !important;
+    }
     .our_clients_slider .slick-slider{
         display: flex;
         justify-content: center;
