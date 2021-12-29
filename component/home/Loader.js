@@ -7,6 +7,7 @@ const Loader = () => {
             $("body").addClass('loader_active');
             setTimeout(() => {
                 $(".loader_block").fadeOut(1000);
+                $("body").removeClass('loader_active');
             }, 2000);
         });
     }, [])
