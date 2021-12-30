@@ -1437,7 +1437,7 @@ footer {
     margin: 0 -25px;
     padding-bottom: 100px;
 }
-.business_collection_image img{
+.business_collection_image a{
     box-shadow: 0 30px 80px rgb(0 0 0 / 14%), 0 20px 70px rgb(0 0 0 / 12%);   
 }
 .common_custom_wedding_section {
@@ -2463,8 +2463,13 @@ h3.section_title {
     padding-left: 50px;
     padding-right: 50px;
 }
-.case_study_page .business_collection_image img{
+.case_study_page .business_collection_image a{
     border-radius: 38px;
+    overflow: hidden;
+    display: block;
+}
+.case_study_page .business_collection_image a > span{
+    display: block !important;
 }
 .case_study_page .the_challge_content .common_desc.max_width_content p{
     max-width: 500px;

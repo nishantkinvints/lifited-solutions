@@ -206,7 +206,7 @@
         padding: 60px 40px;
     }
     .slider-gallery .slick-slide img {
-        max-width: 480px;
+        max-width: 480px !important;
     }
     /* Process Page CSS end */
     /* About Page CSS Start */
@@ -553,7 +553,7 @@
         font-size: 50px;
     }
     .slider-gallery .slick-slide img {
-        max-width: 410px;
+        max-width: 410px !important;
     }
     .slider-gallery .slick-slide .slider_image{
         max-width: 260px;
@@ -930,7 +930,7 @@
         padding: 43px 30px;
     }
     .slider-gallery .slick-slide img {
-        max-width: 340px;
+        max-width: 340px !important;
     }
     .slider-gallery .slick-dots {
         margin-top: 20px;
@@ -1424,13 +1424,10 @@
         padding: 40px 20px;
     }
     .slider-gallery .slick-slide img {
-        max-width: 300px;
+        max-width: 300px !important;
     }
     .slider-gallery .slick-slide .slider_image {
         max-width: 210px;
-    }
-    .slider-gallery .slick-dots {
-        margin-top: 10px;
     }
     .slider-gallery .slick-dots li button {
         width: 35px;
@@ -2570,7 +2567,7 @@
         font-size: 28px;
     }
     .slider-gallery .slick-slide img {
-        max-width: 210px;
+        max-width: 210px !important;
     }
     /* Process Page CSS End */
     /* About Page CSS Start */

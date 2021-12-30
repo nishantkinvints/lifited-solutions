@@ -1,12 +1,15 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 import logo from '../../assets/image/Lifted-Solutions-Logo.svg'
 import $ from "jquery";
 
 const Header = () => {
-
-    useEffect(() => { 
+    const router = useRouter()
+    const [headerClass, setheaderClass] = useState(false)
+    
+    useEffect(() => {
 
         $( ".menu" ).clone().appendTo( "body" );
         
@@ -52,7 +55,38 @@ const Header = () => {
             }
         }
         
-        
+        if((router.pathname == '/casestudy') || (router.pathname == '/sanfrancisco')){
+            setheaderClass(true)
+            window.addEventListener('wheel', function(event){
+                // new_One();
+                setTimeout(() => {
+                    var scroll = $(window).scrollTop();
+                    $('body').attr('scroll-data', scroll);
+                    
+                    if((scroll > 70) && scroll <= 90){
+                        $(".main-header").addClass("second_header");
+                    }
+                    else if(scroll > 100){
+                        $(".main-header").removeClass("second_header");
+                        $(".main-header").addClass("header_not_show");
+                        
+                        if (event.deltaY < 0) {
+                            $(".main-header").addClass("second_header");
+                            $(".main-header").removeClass("header_not_show");
+                        }
+                        else if (event.deltaY > 0) {
+                            $(".main-header").removeClass("second_header");
+                            $(".main-header").addClass("header_not_show");
+                        }
+                    }
+                    else if (scroll < 100){
+                        $(".main-header").removeClass("header_show header_not_show");
+                    }
+                }, 50);
+            });
+            return;
+        }
+       else{
         window.addEventListener('wheel', function(event){
             // new_One();
             setTimeout(() => {
@@ -79,10 +113,11 @@ const Header = () => {
                 }
             }, 50);
         });
+       }
    }, [])
 
     return (
-        <div className="main-header">
+        <div className = {headerClass === true ? `main-header second_header` : `main-header`}>
             <div className="container">
                 <div className="header-wrapper">
                     <header>
@@ -94,7 +129,7 @@ const Header = () => {
                         <div className="menu">
                             <ul className="menu_inner">
                                 <li className="last">
-                                    <a href="/about" className="menu_text">
+                                    <a href="about" className="menu_text">
                                         <span className="anim">About</span>
                                     </a>
                                 </li>
@@ -109,7 +144,7 @@ const Header = () => {
                                     </a>                         
                                 </li>   
                                 <li>
-                                    <a href="project.html" className="menu_text">
+                                    <a href="project" className="menu_text">
                                         <span className="anim">Projects</span>
                                     </a>
                                 </li>
